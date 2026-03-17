@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Disallow admin and API routes
+Disallow: /api/
+Disallow: /_auth/
+Disallow: /_api/
+
+# Sitemaps
+Sitemap: https://ibsmsn.com/sitemap.xml
+
+# Crawl delay (optional, for being polite to servers)
+Crawl-delay: 1
